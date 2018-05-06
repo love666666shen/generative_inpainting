@@ -10,7 +10,7 @@ Example inpainting results of our method on images of natural scene (Places2), f
 
 ## Run train/test
 
-* Install python3, [tensorflow](https://www.tensorflow.org/install/) and tensorflow toolkit [neuralgym](https://github.com/JiahuiYu/neuralgym) (`pip install git+https://github.com/JiahuiYu/neuralgym`).
+* Install python3, [tensorflow-gpu](https://www.tensorflow.org/install/) and tensorflow toolkit [neuralgym](https://github.com/JiahuiYu/neuralgym) (`pip install git+https://github.com/JiahuiYu/neuralgym`).
 * Training:
   * Prepare training images filelist.
   * Modify [inpaint.yml](/inpaint.yml) to set `DATA_FLIST`, `LOG_DIR`, `IMG_SHAPES` and other parameters.
